@@ -28,7 +28,7 @@ function Payment() {
                     <form action="/">
                         <div className={Style.firstInputField}>
                             <div className={Style.inputField}>
-                                <label for="credit-card-no">Credit Card</label>
+                                <label for="credit-card-no">Credit Card number</label>
                                 <input id="credit-card-no" type="text" placeholder="4324 5433 9382 1030"/>
                             </div>
                             <div className={Style.inputField}>

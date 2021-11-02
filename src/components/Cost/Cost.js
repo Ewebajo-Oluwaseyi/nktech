@@ -44,7 +44,7 @@ function Cost() {
           <div className={Style.completePayment}>
             <input type="submit" value="Complete Payment"/>
             <div className={Style.total}>
-              <p>TOTAL:<span>&#8358;</span>-2556.64</p>
+              <p>TOTAL:<span>&#8358;</span>2556.64</p>
             </div>
           </div>
         </div>

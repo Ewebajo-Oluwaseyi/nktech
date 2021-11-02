@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: right;
-  margin-right: 3rem;
+  margin-right: 2.5rem;
 }
 
 .visa {
@@ -65,11 +65,12 @@
 }
 
 .cardInputDetails {
+  margin-top: 0px;
   margin-left: 6rem;
 }
 
 .firstInputField {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
 }
 
@@ -183,6 +184,9 @@
     .inputField input  {
         width: 130px;
       }
+    .firstInputField {
+      padding-top: 2rem;
+    }
     .addCard {
       width: 300px;
     }
