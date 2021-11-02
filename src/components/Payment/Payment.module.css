@@ -1,0 +1,189 @@
+.Payment {
+  margin-top: 2.5rem;
+}
+
+.paymentSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 0px;
+}
+
+.cardTitle{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cardSubtitle {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3babd;
+}
+
+.cardImg {
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+.cardDetails {
+ display: flex;
+ flex-direction: column;
+}
+
+.paymentType {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 3rem;
+}
+
+.visa {
+  margin-right: 10px;
+  width: 40px;
+  height: 20px;
+}
+
+.discover {
+  width: 50px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.paypalSelect {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.paypal {
+  width: 50px;
+  height: 30px;
+}
+
+.paypal {
+  width: 70px;
+}
+
+.cardInputDetails {
+  margin-left: 6rem;
+}
+
+.firstInputField {
+  padding-top: 2rem;
+  display: flex;
+}
+
+.secondInputField {
+  padding-top: 0rem;
+  display: flex;
+}
+
+.inputField {
+ margin: 10px;
+}
+.inputField label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: 'Fira Sans', sans-serif;
+  color: hsl(277, 71%, 11%);
+}
+
+.inputField input {
+  height: 38px;
+  padding-left: 10px;
+  color: hsl(277, 71%, 11%);
+  background-color: #f0f1f3;
+  border: 2px solid #c7d3e6;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  width: 250px;
+}
+
+.useCard {
+  display: flex;
+  margin: 10px;
+}
+
+.useCard p {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.addCard {
+ margin: 10px;
+ color: white;
+ width: 550px;
+ height: 44px;
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 14px;
+ font-weight: 500;
+ background: rgb(61, 61, 255);
+ border: none;
+ outline: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+.addCard:hover, .addCard:active {
+ opacity: 0.6;
+}
+
+@media screen and (max-width: 998px) {
+  .cardImg {
+    margin-top: 1rem;
+    max-width: 300px;
+  }
+  .cardInputDetails {
+    margin-left: 3rem;
+  }
+  .inputField input  {
+    width: 200px;
+  }
+  .addCard {
+    width: 450px;
+  }
+  .paymentType {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 500px){
+    .paymentSection{
+      flex-direction: column;
+    }
+    
+    .cardInfo{
+      padding: 0px 10px;
+    }
+    .paymentType {
+      margin-top: 1rem;
+      margin-right: 0px;
+      padding: 0px 10px;
+      justify-content: left;
+    }
+
+    .cardInputDetails {
+      margin-left: 0rem;
+    }
+    .inputField input  {
+      width: 150px;
+      height: 30px;
+    }
+    .addCard {
+      width: 350px;
+      height: 40px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .inputField input  {
+        width: 130px;
+      }
+    .addCard {
+      width: 300px;
+    }
+}

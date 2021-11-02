@@ -1,0 +1,76 @@
+.Top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logo {
+  margin: 0px;
+  padding-left: 2rem;
+  margin-top: 12px;
+  width: 140px;
+  height: 60px;
+}
+
+
+.TopRight {
+  display: flex;
+  align-items: center;
+}
+
+.TopItem {
+  margin-right: 2rem;
+}
+
+.TopItem  p {
+  margin: 0px 15px;
+  font-size: 17px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  color: #222;
+}
+
+
+.TopRight img {
+  margin-left: 3rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f7f7f7;
+  border: 1px solid #eee;
+}
+
+@media screen and (max-width: 998px) {
+  .TopItem {
+    margin-right: 1rem;
+  }   
+  .TopItem p {
+    margin: 0px 10px;
+  } 
+  .TopRight img {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .Logo {
+    padding-left: 0rem;
+    width: 80px;
+    height: 40px;
+  }
+  .TopItem {
+    margin-right: 5px;
+  }
+  .TopItem p {
+    margin: 0px 5px;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0px;
+  } 
+}
+
+@media screen and (max-width: 374px) {
+    .TopItem {
+      margin-right: 2px;
+      top: 5rem;
+    }  
+}

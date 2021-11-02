@@ -1,0 +1,23 @@
+.App {
+  padding: 1em 6em;
+}
+
+.Container {
+  width: 100%;
+}
+
+@media screen and (max-width: 998px) {
+    .App {
+        padding: 1em 3em;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .App {
+      padding: 1em;
+    } 
+
+    .Container {
+        margin: 0px;
+      }
+}
