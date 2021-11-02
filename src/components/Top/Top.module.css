@@ -14,7 +14,6 @@
 
 .TopRight {
   display: flex;
-  align-items: center;
 }
 
 .TopItem {
@@ -22,7 +21,7 @@
 }
 
 .TopItem  p {
-  margin: 0px 15px;
+  margin: 20px 15px 0px;
   font-size: 17px;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
@@ -61,7 +60,7 @@
     margin-right: 5px;
   }
   .TopItem p {
-    margin: 0px 5px;
+    margin: 10px 5px 0px;
     font-size: 10px;
     font-weight: 400;
     padding: 0px;

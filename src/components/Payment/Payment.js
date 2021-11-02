@@ -48,7 +48,7 @@ function Payment() {
                         </div>
                         <div className={Style.useCard}>
                           <input type="radio" id="card-radio" checked="checked" placeholder="card"/>
-                          <p>Use this cardfor next time purchase</p>
+                          <p>Use this card for next time purchase</p>
                         </div>
 
                         <input type="submit" placeholder="Add card" className={Style.addCard}/>
