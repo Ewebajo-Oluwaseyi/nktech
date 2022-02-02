@@ -1,5 +1,5 @@
 .Payment {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .paymentSection {
@@ -8,7 +8,7 @@
   margin: 30px 0px 0px;
 }
 
-.cardTitle{
+.cardTitle {
   font-size: 18px;
   font-weight: 600;
   margin: 0;
@@ -22,12 +22,12 @@
 
 .cardImg {
   margin-top: 1rem;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .cardDetails {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .paymentType {
@@ -66,7 +66,6 @@
 
 .cardInputDetails {
   margin-top: 0px;
-  margin-left: 6rem;
 }
 
 .firstInputField {
@@ -80,14 +79,14 @@
 }
 
 .inputField {
- margin: 10px;
+  margin: 10px;
 }
 .inputField label {
   display: block;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 5px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: hsl(277, 71%, 11%);
 }
 
@@ -100,7 +99,7 @@
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   width: 250px;
 }
 
@@ -115,22 +114,23 @@
 }
 
 .addCard {
- margin: 10px;
- color: white;
- width: 550px;
- height: 44px;
- font-family: 'Fira Sans', sans-serif;
- font-size: 14px;
- font-weight: 500;
- background: rgb(61, 61, 255);
- border: none;
- outline: none;
- cursor: pointer;
- border-radius: 5px;
+  margin: 10px;
+  color: white;
+  width: 550px;
+  height: 44px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  background: rgb(61, 61, 255);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.addCard:hover, .addCard:active {
- opacity: 0.6;
+.addCard:hover,
+.addCard:active {
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 998px) {
@@ -138,56 +138,60 @@
     margin-top: 1rem;
     max-width: 300px;
   }
-  .cardInputDetails {
-    margin-left: 3rem;
-  }
-  .inputField input  {
+  .inputField input {
     width: 200px;
   }
   .addCard {
     width: 450px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .paymentSection {
+    flex-direction: column;
+  }
+
+  .cardInfo {
+    padding: 0px 10px;
+  }
   .paymentType {
-    margin-right: 8px;
+    margin-top: 1rem;
+    margin-right: 0px;
+    padding: 0px 10px;
+    justify-content: left;
+  }
+
+  .cardInputDetails {
+    margin-left: 0rem;
+  }
+  .inputField input {
+    width: 230px;
+    height: 30px;
+  }
+  .addCard {
+    width: 500px;
+    height: 40px;
   }
 }
 
-@media screen and (max-width: 500px){
-    .paymentSection{
-      flex-direction: column;
-    }
-    
-    .cardInfo{
-      padding: 0px 10px;
-    }
-    .paymentType {
-      margin-top: 1rem;
-      margin-right: 0px;
-      padding: 0px 10px;
-      justify-content: left;
-    }
-
-    .cardInputDetails {
-      margin-left: 0rem;
-    }
-    .inputField input  {
-      width: 150px;
-      height: 30px;
-    }
-    .addCard {
-      width: 350px;
-      height: 40px;
-    }
-}
-
-@media screen and (max-width: 374px) {
-    .inputField input  {
-        width: 130px;
-      }
-    .firstInputField {
-      padding-top: 2rem;
-    }
-    .addCard {
-      width: 300px;
-    }
+@media screen and (max-width: 588px) {
+  .Payment {
+    margin-top: 2rem;
+  }
+  .cardImg {
+    max-width: 260px;
+  }
+  .inputField input {
+    width: 230px;
+  }
+  .firstInputField {
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+  .secondInputField {
+    flex-direction: column;
+  }
+  .addCard {
+    width: 250px;
+  }
 }

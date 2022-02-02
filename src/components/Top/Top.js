@@ -1,11 +1,11 @@
 import React from 'react'
 import Style from './Top.module.css';
 import cardi from '../../assets/cardi.jpg';
-import logo from '../../assets/logo.png'
+
 function Top() {
     return (
       <div className={Style.Top}>
-        <img className={Style.Logo} src={logo} alt=""/>
+        <div></div>
         <div className={Style.TopRight}>
           <div className={Style.TopItem}>
             <p>TRIPS</p>
